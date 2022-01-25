@@ -1,14 +1,15 @@
 {
-  "name": "stefans_portfolio",
-  "version": "1.0.0",
+  "name": "nats_portfolio",
+  "version": "2.0.0",
   "description": "Project portfolio for the author(me!).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel scripts/jsx -d scripts/src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ssuarez0/Ssuarez0.github.io.git"
+    "url": "git+https://github.com/NLSuarez/NLSuarez.github.io.git"
   },
   "keywords": [
     "Portfolio",
@@ -19,11 +20,12 @@
   "author": "Stefan Suarez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ssuarez0/Ssuarez0.github.io/issues"
+    "url": "https://github.com/NLSuarez/NLSuarez.github.io/issues"
   },
-  "homepage": "https://github.com/Ssuarez0/Ssuarez0.github.io#readme",
+  "homepage": "https://github.com/NLSuarez/NLSuarez.github.io#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-react-app": "^10.0.0"
   }
 }

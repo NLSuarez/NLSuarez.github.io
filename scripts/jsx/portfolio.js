@@ -202,7 +202,7 @@ class SlideDescription extends React.Component {
         let links = [];
         if (currentSlide.websiteLink && currentSlide.websiteLink.length > 0) links.push(<a key="website-link" className="project-link" title="Live Website" target="_blank" href={currentSlide.websiteLink}><i className="fas fa-globe"></i></a>);
         if (currentSlide.githubLink && currentSlide.githubLink.length > 0) links.push(<a key="github-link" className="project-link" title="Github" target="_blank" href={currentSlide.githubLink}><i className="fab fa-github"></i></a>);
-        if (currentSlide.codepenLink && currentSlide.codepenLink.length > 0) links.push(<a key="codepen-link" className="project-link" title="CodePen" target="_blank" href={currentSlide.codepenLink}><i class="fab fa-codepen"></i></a>);
+        if (currentSlide.codepenLink && currentSlide.codepenLink.length > 0) links.push(<a key="codepen-link" className="project-link" title="CodePen" target="_blank" href={currentSlide.codepenLink}><i className="fab fa-codepen"></i></a>);
 
         return (
             <div className="current-slide-details">
