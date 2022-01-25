@@ -1,5 +1,6 @@
-# ignore nodemodules
+# ignore nodemodules and lock file
 node_modules
+yarn.lock
 # ignore sass conversion maps and caches
 media/styles/css/default.css.map
 media/styles/.sass-cache

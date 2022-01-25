@@ -8,11 +8,11 @@
 const currentProjects = [
     {
         key: 0,
-        name: "Revaliir.net",
-        description: "A medium sized, forum website serving a dedicated, writing community. </br><strong>Live technology stack:</strong> Django 1.8, python 2.7, jquery, and Bootstrap. </br><strong>In development technology stack:</strong> React.js, Node.js, Graphene, Django 2.0+, Python 3.7+",
+        name: "Revaliir",
+        description: "A medium sized, forum website serving a dedicated, writing community. </br><strong>Live technology stack:</strong> Django 1.8, python 2.7, jquery, and Bootstrap. </br><strong>In development technology stack:</strong> React.js, Redux, Django 3.2+, Python 3.7+ and Dart scss. Various other libraries used.",
         projectImg: "./media/images/Revaliir.PNG",
         githubLink: "",
-        websiteLink: "https://revaliir.net/index/"
+        websiteLink: "https://worldofrevaliir.net/index/"
     },
     {
         key: 1,
@@ -43,7 +43,7 @@ const currentProjects = [
     {
         key: 4,
         name: "Markdown Previewer",
-        description: "A markdown previewer that is actually the alpha of a custom markdown editor. This reads markdown syntax in a textbox and renders it as regular html. </br><strong>Technology stack:</strong> ES6, React.js, SCSS, Bootstrap, Markdown.js",
+        description: "A markdown previewer that was originally an alpha for a custom markdown editor. It reads markdown syntax in a textbox and renders it as regular html. The project is now archived because the idea was eventually dropped in favor of a WYSIWYG editor. </br><strong>Technology stack:</strong> ES6, React.js, SCSS, Bootstrap, Markdown.js",
         projectImg: "./media/images/MarkdownPreviewer.PNG",
         githubLink: "",
         codepenLink: "https://codepen.io/CodeAni/pen/OwPqoJ",
@@ -63,7 +63,7 @@ const currentProjects = [
         name: "Spanish Frequency Analyzer",
         description: "A desktop application built for a high school Spanish teacher to help determine the frequency at which words appear in lecture notes. </br><strong>Technology stack:</strong> C# and WPF.",
         projectImg: "./media/images/spanishFrequency.PNG",
-        githubLink: "https://github.com/Ssuarez0/spanish-nl-analyzer",
+        githubLink: "https://github.com/NLSuarez/spanish-nl-analyzer",
         codepenLink: "",
         websiteLink: ""
     },
@@ -72,7 +72,7 @@ const currentProjects = [
         name: "CS-Club-Hackathon Registration Page 2017",
         description: "A registration page for a 2017 Hackathon hosted by the CSU Stanislaus CS Club and sponsored by Novo Consulting. </br><strong>Technology stack:</strong> LAMP stack project with MySQL, PHP, and a Linux server.",
         projectImg: "./media/images/CS-Club-Hackathon.PNG",
-        githubLink: "https://github.com/Ssuarez0/CS-Club-Hackathon",
+        githubLink: "https://github.com/NLSuarez/CS-Club-Hackathon",
         codepenLink: "",
         websiteLink: "https://hopper.csustan.edu/~ssuarez/cs-club-hackathon/index.html"
     },
@@ -81,7 +81,7 @@ const currentProjects = [
         name: "Stanislaus Bird Encyclopedia",
         description: "A website built to list all the birds in Stanislaus county in alphabetical order and then supply individual pages full of details for each bird. </br><strong>Technology stack:</strong> Django 1.10 and python 3.5.",
         projectImg: "./media/images/BirdDatabase.PNG",
-        githubLink: "https://github.com/Ssuarez0/CS4950---Bird-Encyclopedia",
+        githubLink: "https://github.com/NLSuarez/CS4950---Bird-Encyclopedia",
         codepenLink: "",
         websiteLink: ""
     },
@@ -90,7 +90,7 @@ const currentProjects = [
         name: "Battle Arena",
         description: "A battle arena game with a fully functioning AI operating on a modified Negamax algorithm.</br><strong>Technology stack:</strong> Fully done in python 3.5 on Windows",
         projectImg: "./media/images/BattleArenaSample.PNG",
-        githubLink: "https://github.com/Ssuarez0/CS4480---Battle-Arena-AI",
+        githubLink: "https://github.com/NLSuarez/CS4480---Battle-Arena-AI",
         codepenLink: "",
         websiteLink: ""
     },
@@ -99,7 +99,7 @@ const currentProjects = [
         name: "Sample Biography Page",
         description: "A sample website of a fictional character's life. </br><strong>Technology stack:</strong> HTML and Bootstrap.",
         projectImg: "./media/images/SampleBiography.PNG",
-        githubLink: "https://github.com/Ssuarez0/AaronWhiteBiographyPage",
+        githubLink: "https://github.com/NLSuarez/AaronWhiteBiographyPage",
         codepenLink: "https://codepen.io/CodeAni/pen/qpzBJQ",
         websiteLink: "https://codepen.io/CodeAni/full/qpzBJQ"
     },
@@ -108,7 +108,7 @@ const currentProjects = [
         name: "Library Database Website",
         description: "A website for querying a hypothetical library. </br><strong>Technology stack:</strong> LAMP stack project with MySQL, PHP, and a Linux server.",
         projectImg: "./media/images/LibraryDatabase.PNG",
-        githubLink: "https://github.com/Ssuarez0/CS4250-Library-Database",
+        githubLink: "https://github.com/NLSuarez/CS4250-Library-Database",
         codepenLink: "",
         websiteLink: ""
     },
@@ -117,7 +117,7 @@ const currentProjects = [
         name: "Bee Pesticide Simulation",
         description: "A simulation meant to demonstrate the interaction between polination, bees, pesticides and the food supply. </br><strong>Technology stack:</strong> Netlogo",
         projectImg: "./media/images/BeePesticideModel.PNG",
-        githubLink: "https://github.com/Ssuarez0/CS3200-Bee-Pesticide-Simulation",
+        githubLink: "https://github.com/NLSuarez/CS3200-Bee-Pesticide-Simulation",
         codepenLink: "",
         websiteLink: ""
     }
